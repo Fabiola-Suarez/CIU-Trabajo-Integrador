@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(221, 229, 247);
+    font-family: cambria;
+}
+#Titulo {
+    font-family: serif;
+    text-align: center;
+    color: rgb(109, 40, 40);
+    font-size: 50px;
+}
+.Comienzo{
+    display: block;
+    padding: 2px;
+    margin: 5px 130px;
+    border-radius: 6px;
+    border: 3px solid rgb(109, 40, 40) ;
+
+}
+#Mensaje{
+    color: rgb(109, 40, 40) ;
+    font-weight: bolder;
+}
+#Reseña {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin: 15px 5px;
+    
+}
+img{
+    border: 3px solid rgb(109, 40, 40);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 700px;
+    height: 300px; 
+}
+p{
+    font-size: 18px;
+    margin: 15px 5px;
+    padding: 2px
+}
+.barMenu{
+    position: relative;
+    padding: 0px;
+    margin: 0px 10px;
+    max-width: 100%;
+    height: 38px;
+    background-color: rgb(126, 80, 80);
+    border-radius: 5px;
+}
+.Menu{
+    position: relative;
+    list-style-type: square;
+    font-size: 17px ;
+}    
+  
