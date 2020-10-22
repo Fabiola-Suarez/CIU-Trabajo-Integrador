@@ -36,8 +36,11 @@ img{
     width: 700px;
     height: 300px; 
 }
+#SegundoTitulo{
+    color: rgb(116, 105, 105);
+}
 p{
-    font-size: 18px;
+    font-size: 19px;
     margin: 15px 5px;
     padding: 2px
 }
@@ -47,16 +50,28 @@ p{
     margin: 0px 10px;
     max-width: 100%;
     height: 38px;
-    background-color: rgb(153, 93, 93);
+    background-color: rgb(109, 40, 40);
     border-radius: 5px;
 }
 .Menu{
     position: relative;
     list-style-type: square;
-    font-size: 17px ;
+    font-size: 20px ;
+   
 }
-a:hover{
-    background-color: salmon;
-    color: sandybrown;
-}    
+#Centrado{
+        text-align: center;
+	
+}
+button{
+    background-color: rgb(231, 132, 117);
+    width: 90px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: 'Baloo Tamma 2';
+    font-size: 100%;
+    font-weight: bolder;
+    
+}
+    
   
