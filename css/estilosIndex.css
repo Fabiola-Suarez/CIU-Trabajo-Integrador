@@ -57,21 +57,22 @@ p{
     position: relative;
     list-style-type: square;
     font-size: 20px ;
+    color: rgb(17, 16, 16);
+    text-decoration: underline;
+    
    
+}
+a:hover{
+    color: rgb(78, 9, 9);
+    background-color: rgb(231, 171, 171);
+}
+a:link{
+    color: rgb(250, 10, 58);
 }
 #Centrado{
         text-align: center;
 	
 }
-button{
-    background-color: rgb(231, 132, 117);
-    width: 90px;
-    height: 60px;
-    border-radius: 20px;
-    font-family: 'Baloo Tamma 2';
-    font-size: 100%;
-    font-weight: bolder;
-    
-}
+
     
   
