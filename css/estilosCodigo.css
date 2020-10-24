@@ -12,3 +12,19 @@
 .Comienzo{
     font-size: 18px;
 }
+#objectLiteral{
+    border-radius: 6px;
+    border: 4px solid rgb(241, 75, 75) ;
+}
+#objectConstructor{
+    border-radius: 6px;
+    border: 4px solid rgb(241, 75, 75) ;
+}
+#objectDestructuring{
+    border-radius: 6px;
+    border: 4px solid rgb(241, 75, 75) ;
+}
+#literalEnhacement{
+    border-radius: 6px;
+    border: 4px solid rgb(241, 75, 75) ;
+}
