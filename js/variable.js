@@ -10,7 +10,7 @@ variable += `
 <code>
     <span // Variable</span>
     <span class="Var">var</span> miVariable = "un dato";
-    <span // Constante</span>
+     // Constante
     <span class="Var">const</span> miConstante = 10;
     <span class = "Comentario">// let es una variable diferente, que se explicara luego</span>
     <span class="Var">let</span> miVarEspecial = "otro dato";
@@ -23,26 +23,26 @@ variable += `
 
 <pre>
 <code>
-    <span class="Var">var</span> auto = <span class="string">"Ferrari"</span>;
-    <span class="Var">let</span> moto = <span class="string">"Ducati"</span>;
+    <span class="Var">var</span> auto ="Ferrari";
+    <span class="Var">let</span> moto = "Ducati";
     
     
-    <span>if</span> (<span class="Dato">auto</span>) {
-        <span class="Var">var</span> auto = <span>"Porsche"</span>;
+        if(<span class="Dato">auto</span>) {
+        <span class="Var">var</span> auto = "Porsche";
         <span class = "Comentario"> // Vemos por consola el dato de la variable auto adentro del if.</span>
-        console.log (<span>'Adentro del if: '</span>, <span class="Dato">auto</span>);
+        console.log ('Adentro del if: ', <span class="Dato">auto</span>);
     };
     <span class = "Comentario">// Vemos por consola el dato de la variable auto afuera del if.</span>
-    console.log (<span>'Afuera del if:'</span>, <span class="Dato">auto</span>);
+    console.log ('Afuera del if:', <span class="Dato">auto</span>);
     
     
-    <span>if</span> (<span class="Dato">moto</span>) {
-        <span class="Var">let</span> moto = <span>"Yamaha"</span>;
+    if(<span class="Dato">moto</span>) {
+        <span class="Var">let</span> moto = "Yamaha";
         <span class = "Comentario">// Vemos por consola el dato de la variable moto adentro del if.</span>
-        console.log (<span>'Adentro del if: '</span>, <span class="Dato">moto</span>);
+        console.log ('Adentro del if: ', <span class="Dato">moto</span>);
     };
     <span class = "Comentario">// Vemos por consola el dato de la variable moto afuera del if.</span>
-    console.log (<span>'Afuera del if:'</span>, <span class="Dato">moto</span>);
+    console.log ('Afuera del if:', <span class="Dato">moto</span>);
 </code>
 </pre>
 

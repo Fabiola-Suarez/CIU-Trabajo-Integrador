@@ -13,12 +13,12 @@ let prototypeHTML = `
     // anteponiendo su nombre y "prototype"</span>
 
     <span class="Dato">Personaje</span>.<span class="Var">prototype</span>.<span class="Dato">describirPersonaje</span> = <span class="Var">function</span>(){
-        <span class="Var">return</span> <span>'El personaje es ${nombre} y su ocupación es ${ocupacion}'</span>;
+        <span class="Var">return</span>'El personaje es ${nombre} y su ocupación es ${ocupacion}';
     
     //Instanciamos los objetos
 
-    <span class="Var">const</span> personaje1 = <span class="Var">new</span> <span class="Dato">Personaje</span>(<span >"Dr. Emmet Brown"</span>, <span >"Científico"</span>);
-    <span class="Var">const</span> personaje2 = <span class="Var">new</span> <span class="Dato">Personaje</span>(<span >"Marthy Mc Fly"</span>, <span >"Viajero en el tiempo"</span>);
+    <span class="Var">const</span> personaje1 = <span class="Var">new</span> <span class="Dato">Personaje</span>("Dr. Emmet Brown", "Científico");
+    <span class="Var">const</span> personaje2 = <span class="Var">new</span> <span class="Dato">Personaje</span>("Marthy Mc Fly","Viajero en el tiempo");
     <span class="Comentario">// Acá accedemos a los datos a través del Prototype que creamos</span>
     <span class= "Var">let</span> doc = <span class="Dato">personaje1</span>.<span class="Var">describirPersonaje</span>();
     console.log(<span class="Dato">doc</span>);

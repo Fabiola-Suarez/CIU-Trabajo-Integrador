@@ -8,7 +8,7 @@ let funcion = `
     <code>
     <span class="Comentario">// Primero se define</span>
     <span class="Var">function</span> hola() {
-        console.log(<span>"Acá la función hola"</span>);
+        console.log("Acá la función hola");
     };
     <span class="Comentario">// Luego se llama a la función</span>
     <span class="Dato">hola</span>();
@@ -21,9 +21,9 @@ let funcion = `
 // Funcion en Variable
 
     <span class="Var">let</span> alumno = <span class="Var">function</span>(<span class="Dato">apellido</span>) {
-    console.log(<span>"Alumno apellido ___"</span>, apellido);
+    console.log("Alumno apellido ___", apellido);
     }
-    <span class="Dato">alumno</span>(<span>"Alfonso"</span>);
+    <span class="Dato">alumno</span>("Alfonso");
 
 // Consola funcion en variable
 
@@ -37,13 +37,13 @@ let funcion = `
         <span class="Var">return</span> <span class="Dato">a</span> + <span class="Dato">b</span>;
     }
     
-    console.log(<span class="Dato">sumar</span>(<span>2</span>, <span>5</span>));
+    console.log(<span class="Dato">sumar</span>(2, 5));
 
-function sumar(a, b) {
+    <span class = "Var">function</span> sumar(a, b) {
     return a + b;
 }
 
-console.log(sumar(2,5));
+    console.log(sumar(2,5));
 
 // Consola funcion con return
 
