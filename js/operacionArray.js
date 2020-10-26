@@ -2,7 +2,7 @@ const operArray = document.querySelector(".Comienzo")
 let arrayHtml =  `
 <pre>
 <code>
-    <span class="Comentario">// Definimos dos arreglos</span>
+// Definimos dos arreglos
     heroes = ["Leia", "Han",Luke"];
     villanos = ["Jabba", "Darth Maul", "Lord Vader"];
 

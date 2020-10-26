@@ -16,10 +16,10 @@ let generarhtml= `
     <span class="Var">const</span> contenedor = document.<span class="Var">querySelector</span>("#app");
     <span class="Var">let</span> html = '';
 
-    // Hay varias maneras, (while - for)
+    <span class="Comentario">// Hay varias maneras, (while - for)
     // Vamos a usar por ejemplo el forEach
     // Itera sobre los elementos del array y la variable "deporte" va tomando el valor
-    // de esos elementos.
+    // de esos elementos.</span>
     <span class="Dato">deportes_olimpicos</span>.<span class="Var">forEach</span>(<span class="Dato">deporte</span> <span class="Var">=></span> {
         <span class="Dato">html</span> += '< li> ${deporte} < /li>';
     });
@@ -39,9 +39,7 @@ let generarhtml= `
     <span class="Dato">armado</span>:  true,
     <span class="Dato">arma</span>: "Sable laser",
     <span class="Var">descripcion</span>(){
-        console.log(
-           'El personaje ${nombre} es ${titulo} y está armado con ${arma}'
-        );
+        console.log('El personaje ${nombre} es ${titulo} y está armado con ${arma}');
     }
 }
 

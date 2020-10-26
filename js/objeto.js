@@ -3,7 +3,7 @@ const objetoContenedor = document.querySelector("#objectLiteral");
 let objHtml = `
 <pre>
 <code>
-    //Definicion de un objeto
+//Definicion de un objeto
     <span class="Var">const</span> deportista = {
         <span class="Dato">nombre</span>: "Valentino",
         <span class="Dato">deporte</span>: "Motociclismo"
@@ -17,7 +17,7 @@ let objHtml = `
     console.log(<span class="Dato">nombreDeportista</span>);
     console.log(<span class="Dato">nombreDeporte</span>);
 
-    //Console object literal
+//Console object literal
 
     > Object
         deporte: "Motociclismo"
@@ -26,7 +26,7 @@ let objHtml = `
     > Collin Mc Rae
     > rally
 
-    //Accediendo a los valores
+//Accediendo a los valores
 
     <span class="Comentario">// Se puede acceder a los valores colocando nombreDelObjeto.valor</span>
     console.log(<span class="Dato">deportista</span>.<span class="Var">nombre</span>);
@@ -34,23 +34,23 @@ let objHtml = `
     <span class="Comentario">// Otra manera de acceder</span> 
     console.log(<span class="Dato">deportista</span>['nombre'])
 
-    //Console con los valores puestos
+//Console con los valores puestos
 
     > Valentino
     > Motociclismo
     > Valentino
 
-    //Creamos otro objeto con la misma estructura
+//Creamos otro objeto con la misma estructura
 
     <span class="Var">const</span> deportista_otro = {
         <span class="Dato">nombre</span>:"Cristiano Ronaldo",
         <span class="Dato">deporte</span>:"Fútbol"
     };
-    <span class="Comentario">// Accedemos a los valores</span>
+// Accedemos a los valores
     console.log(<span class="Dato">deportista_otro</span>.<span class="Var">nombre</span>);
     console.log(<span class="Dato">deportista_otro</span>.<span class="Var">deporte</span>);
 
-    //Console del otro objeto
+//Console del otro objeto
 
     > Cristiano Ronaldo
     > Futbol
@@ -72,10 +72,10 @@ let constructorHtml = `
     <span class="Var">const</span> protagonista2 = <span class="Var">new</span> <span class="Dato">Guerrero</span>('Kanut', 'Vikingo');
     console.log (<span class="Dato">protagonista1</span>);
     console.log (<span class="Dato">protagonista2</span>);
-    <span class="Comentario">// Accediendo a los valores</span>
+// Accediendo a los valores
     console.log(<span class="Dato">protagonista1</span>.<span class="Var">nombre</span>);
 
-    //Console Object Constructor
+//Console Object Constructor
 
         > Guerrero
         bando: "Sajones"
