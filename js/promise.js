@@ -9,7 +9,7 @@ let = promiseHtml = `
 <code>
 //Simular Consulta 1
 
-    <span class="Var">let</span> darDeBaja = <span class="Var">new</span> <span class="Promise">Promise</span>((<span class="Dato">resolve</span>, <span class="Dato">reject</span>) <span class="Var">=></span> {
+    <span class="Var">let</span> darDeBaja = <span class="Var">new</span><span class="Promise">Promise</span>((<span class="Dato">resolve</span>, <span class="Dato">reject</span>) <span class="Var">=></span> {
         <span class="Comentario">// Para simular una consulta
         // con timeout y error </span>
         setTimeout(() <span class="Var">=></span> {}
@@ -44,7 +44,7 @@ let = promiseHtml = `
 
 //Ejemplo real
 
-    <span class="Var">const</span> traerUsers = <span class="Dato">cantidad</span> <span class="Var">=></span> <span class="Var">new</span> Promise((<span class="Dato">resolve</span>, <span class="Dato">reject</span>) <span class="Var">=></span> {
+    <span class="Var">const</span> traerUsers = <span class="Dato">cantidad</span> <span class="Var">=></span> <span class="Var">new</span> <span class="Promise">Promise</span>((<span class="Dato">resolve</span>, <span class="Dato">reject</span>) <span class="Var">=></span> {
         <span class="Comentario">// Vamos por partes
         // Primero la url de la api</span>
 

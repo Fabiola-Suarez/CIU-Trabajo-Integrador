@@ -96,6 +96,7 @@ objetoConstructor.innerHTML = constructorHtml;
 const objetoDesestructuracion = document.querySelector("#objectDestructuring");
 let primeraComputadora = '<span class="Dato">${primeraComputadora}</span>';
 let deseada = '<span class="Dato">${deseada}</span>';
+let inicial = '<span class="Dato">${inicial}</span>';
 let desestructuracionHtml =  `
 <pre>
 <code>
